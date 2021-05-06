@@ -224,7 +224,7 @@ p#baslik-bilet-ucret{
      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
  
  }
- .tablo-uclu:hover,  .tablo-uclu.active{
+ .tablo-uclu:hover{
      -webkit-transform: scale(1.05);
      -moz-transform: scale(1.05);
      transform: scale(1.05);
@@ -286,11 +286,9 @@ p#baslik-bilet-ucret{
     -moz-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
- 
  }
  
  .tablo-icerik h4 {
-    
      font-size: 14px;
      text-align: center;
      padding: 5px 10px;
