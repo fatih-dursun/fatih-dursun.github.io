@@ -1,0 +1,19 @@
+<div class="katilacak_takimlar">
+  {% for baslik in site.data.katilan-ulkeler.baslik %}
+    <p id="baslik-katilan-takimlar">{{baslik.title}}</p>
+    {% endfor %} 
+    <div class=takim-alan>
+      {% for katilan-ulkeler in site.data.katilan-ulkeler.imageler %}
+        <div class="takim_dis">
+            <div class="takim_ic">
+              <div class="takim_on">
+                <img src="{{katilan-ulkeler.logo}}" alt="{{katilan-ulkeler.alt}}">
+              </div>
+              <div class="takim_arka">
+                <img src="{{katilan-ulkeler.bayrak}}" alt="{{katilan-ulkeler.alt}}">
+              </div>
+            </div>
+          </div>
+          {% endfor %}    
+        </div>
+</div>

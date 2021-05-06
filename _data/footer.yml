@@ -1,0 +1,26 @@
+linkler:
+- link-baslik: Faydalı Linkler
+  url:
+  - url-adres: https://www.fifa.com/
+    url-aciklama: FIFA
+  - url-adres: https://www.uefa.com/
+    url-aciklama: UEFA
+  - url-adres: https://www.tff.org/
+    url-aciklama: TFF
+  - url-adres: http://www.istanbul.gov.tr/
+    url-aciklama: İstanbul Valiliği
+  - url-adres: https://www.ibb.istanbul/
+    url-aciklama: İstanbul Belediyesi
+
+sponsorlar:
+- sponsor-baslik: Sponsorlar
+  sponsor-ozellik:
+  - gorsel: /css/img/thy.png
+    alt: türk hava yolları
+  - gorsel: /css/img/master.png
+    alt: master card
+
+adres:
+- adres-baslik: Stadyum Adresi
+  adres-kodu: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12031.007199756392!2d28.7656215!3d41.0744177!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb0284d3f86c83cfb!2sAtat%C3%BCrk%20Olimpiyat%20Stadyumu!5e0!3m2!1str!2str!4v1620239696623!5m2!1str!2str" width="400" height="206" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            

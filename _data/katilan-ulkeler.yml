@@ -1,0 +1,19 @@
+baslik:
+  - title: Katılan Takımlar ve Ülkeleri
+
+imageler:
+  - logo: /css/img/madrid.png
+    bayrak: /css/img/ispanya.png
+    alt: Real Madrid
+
+  - logo: /css/img/paris.png
+    bayrak: /css/img/fransa.png
+    alt: Paris
+
+  - logo: /css/img/barcelona.png
+    bayrak: /css/img/ispanya.png
+    alt: Barcelona
+
+  - logo: /css/img/fener.png
+    bayrak: /css/img/turkiye.png
+    alt: Fenerbahçe

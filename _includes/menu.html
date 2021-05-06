@@ -1,0 +1,21 @@
+<div class="header">
+    <div class="menu-alan">
+        <div class="logo">
+            {% for ana-sayfa in site.data.ana-sayfa %}
+            <img src="{{ana-sayfa.adres}}" width="{{ana-sayfa.logo-genislik}}" alt="{{ana-sayfa.alt}}">
+            {% endfor %}   
+        </div>
+        <div class="ust-menu">
+            <ul id="navigation">
+            {% for linkler in site.data.menu-linkler %}
+                <li><a href="{{linkler.link}}">{{linkler.menu-adi}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="manset">
+    <div class="resim">
+        <div class="geri_sayim"><p id="geri-say"></p></div>
+    </div>
+</div>

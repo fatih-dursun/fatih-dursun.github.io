@@ -1,0 +1,8 @@
+<div class="ev-sahibi">
+    {% for ev in site.data.ev-sahibi %}
+    <p id="baslik-ev-sahibi">{{ev.title}}</p>
+    <p id="stadyum-bilgi"><img src="{{ev.gorsel}}" width="{{ev.gorsel-genislik}}" style="float:left;margin-bottom: 25px;padding-right:20px;" ">
+        {{ev.icerik}}
+       </p>
+       {% endfor %}
+    </div>

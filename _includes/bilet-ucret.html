@@ -1,0 +1,24 @@
+<div class="bilet-ucretleri">
+    {% for baslik in site.data.bilet-ucretleri.baslik %}
+    <p id="baslik-bilet-ucret">{{baslik.title}}</p>
+    {% endfor %}
+<div class="bilet-tablolari-alan">
+    {% for tablo in site.data.bilet-ucretleri.tablolar %}
+    <div class="tablo-uclu">
+        <div class="image">
+            <img src="{{tablo.gorsel}}" alt="{{tablo.gorsel_alt}}">
+            <div class="bilet-tur">
+              <div class="bilet-bilgi">
+                <h1>{{tablo.sinif}} - {{tablo.ucret}}</h1>
+                </div>
+            </div> 
+        </div>
+        <div class="tablo-icerik">
+            {% for ozel in tablo.ozellikler %}
+            <h4>{{ozel.ozellik}}</h4>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</div>

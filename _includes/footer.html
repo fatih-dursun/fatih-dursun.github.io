@@ -1,0 +1,33 @@
+<div class="footer">
+    <div class="footer-div">
+        <div class="faydali-linkler">
+            {% for linkler in site.data.footer.linkler %}
+            <p id="footer-p">{{linkler.link-baslik}}</p>
+            <ul class="faydali-menu">
+                {% for lnk in linkler.url %}
+                <li><a href="{{lnk.url-adres}}" target="_blank">{{lnk.url-aciklama}}</a></li>
+                {% endfor %}
+            </ul>      
+            {% endfor %}
+        </div>
+    </div>
+    <div class="footer-div">
+        {% for sponsor in site.data.footer.sponsorlar %}
+        <p id="footer-p">{{sponsor.sponsor-baslik}}</p>
+        <div class="sponsorlar">
+            {% for spn in sponsor.sponsor-ozellik %}
+            <img src="{{spn.gorsel}}" alt="{{spn.alt}}">
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+    <div class="footer-div">
+        {% for adres in site.data.footer.adres %}
+        <p id="footer-p">{{adres.adres-baslik}}</p>
+        <div class="harita">
+            {{adres.adres-kodu}}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</html>

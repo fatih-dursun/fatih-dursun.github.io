@@ -1,0 +1,14 @@
+- link: /
+  menu-adi: Ana Sayfa
+
+- link: /ev-sahibi/
+  menu-adi: Ev Sahibi
+
+- link: /biletler/
+  menu-adi: Biletler
+
+- link: /katilan-takimlar/
+  menu-adi: Katılan Takımlar
+
+- link: /iletisim/
+  menu-adi: İletişim

@@ -1,0 +1,38 @@
+baslik:
+  - title: Bilet Ücretleri
+  
+tablolar:
+  - sinif: Ekonomi
+    ucret: $200
+    gorsel: /css/img/bilet-1.png
+    gorsel_alt: Şampiyonlar Ligi İstanbul 2021
+    ozellikler: 
+      - ozellik: Kale Arkası Tribün
+      - ozellik: Şehir İçi Ulaşım
+      - ozellik: Hatıra Pozu
+      - ozellik: 50 TL Restorant İndirimi
+
+
+  - sinif: VİP
+    ucret: $1500
+    gorsel: /css/img/bilet2.png
+    gorsel_alt: Şampiyonlar Ligi İstanbul 2021
+    ozellikler: 
+      - ozellik: Vip Tribün
+      - ozellik: Vip Ulaşım
+      - ozellik: 150 TL Restorant İndirimi
+      - ozellik: Kupa İle Fotoğraf
+      - ozellik: Şehir Turu
+
+      
+  - sinif: Standart
+    ucret: $500
+    gorsel: /css/img/bilet3.png
+    gorsel_alt: Şampiyonlar Ligi İstanbul 2021
+    ozellikler: 
+      - ozellik: Maraton Tribün
+      - ozellik: Havaalanı Ulaşım
+      - ozellik: 100 TL Restorant İndirimi
+      - ozellik: Kupa İle Fotoğraf
+      - ozellik: Hatıra T-Shirti ve Pozu
+

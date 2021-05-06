@@ -1,0 +1,351 @@
+body{
+margin: 0px;
+}
+p{
+    margin: 0px;
+}
+.header {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.menu-alan {
+    /* max-width: 1250px; */
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 10px 25px; */
+}
+.logo {
+    width: 150px;
+    float: left;
+    padding: 25px;
+}
+.ust-menu {
+    /* display: inline-block; */
+    float: right;
+    padding: 5px 25px;
+    display: inline-block;
+}
+ul#navigation {
+    /* display: inherit; */
+    margin: 0;
+}
+ul#navigation li {
+    float: left;
+    list-style: none;
+    padding: 15px;
+}
+ul#navigation li a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    text-transform: lowercase;
+    font-weight: 900;
+    transition: all .3s ease;
+    line-height: 56px;
+    color: #fff;
+    letter-spacing: .3px;
+    text-decoration: none;
+}
+ul#navigation li a:hover {
+    color: #d6508f;
+}
+.resim{
+    background-image: url("/css/img/tanitici2.png");
+    width: 100%;
+}
+.geri_sayim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 657px; /*683 */
+    text-align: center;
+    margin: 0 auto;
+}
+p#geri-say {
+    text-align: center;
+    word-spacing:-12px;
+    letter-spacing: -0.7px;
+    color:#fff;
+    font-size: 38px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+p#renkli_1 {
+    background:#0072e4;
+    margin:0;
+    padding: 8px;
+    display: inline-block;
+    /* letter-spacing: 70px; */
+    /* line-height: 60px; */
+}
+p#renkli_2 {
+    background:#68194f;
+    margin:0;
+    padding: 8px;
+    display: inline-block;
+    /* letter-spacing: 70px; */
+    /* line-height: 60px; */
+}
+p#renkli_3 {
+    background:#02cfcf;
+    margin:0;
+    padding: 8px;
+    display: inline-block;
+    /* letter-spacing: 70px; */
+    /* line-height: 60px; */
+}
+p#renkli_4 {
+    background: rgb(209, 5, 236);
+    padding: 8px;
+    margin:0;
+    display: inline-block;
+    /* letter-spacing: 70px; */
+    /* line-height: 60px; */
+}
+p#renksiz {
+    background: rgb(0 0 0 / 30%);
+    padding: 0px 5px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.ev-sahibi {
+    background: #f8f9fa;
+    display: inline-block;
+    /* padding: 0px; */
+}
+.ev-sahibi p {
+    padding: 25px;
+}
+p#stadyum-bilgi {
+    font-size: 17px;
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    word-spacing: 8px;
+    line-height: 22px;
+}
+p#baslik-ev-sahibi{
+display: block;
+font-family: 'Roboto Mono', monospace;
+background: #933f80;
+color: #fff;
+padding: 20px 25px;}
+
+p#baslik-katilan-takimlar {
+    display: block;
+    font-family: 'Roboto Mono', monospace;;
+    background: #000f54;
+    color: #fff;
+    padding: 20px 25px;
+}
+.katilacak_takimlar {
+    background-image: url(/css/img/takimlar-3.png);
+    /* background-position-x: center; */
+    /* background-position-y: center; */
+    background-position: -285px 355px;
+}
+.takim_dis {
+    background-color: transparent;
+    width: 25%;
+    height: 292px;
+}
+  
+
+  .takim_ic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .takim_dis:hover .takim_ic {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .takim_on, .takim_arka{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  
+  /* Style the back side */
+  .takim_arka {
+    transform: rotateY(180deg);
+  }
+
+
+.takim-alan {
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+}
+
+
+/* Tablo başlangıç */
+
+p#baslik-bilet-ucret{
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+    background: rgb(228 73 77);
+    color: #fff;
+    padding: 20px 25px;
+}
+
+.bilet-tablolari-alan {
+    display: flex;
+    justify-content: center;
+    background: #efefef;
+    font-family: 'Roboto';
+    /* margin: 0 auto; */
+}
+
+.tablo-uclu {
+    display: block;
+    width: 25%;
+    margin: 2%;
+     float: left;
+     background: #fff;
+     border-radius:10px;
+     z-index:0;
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+     -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+     -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+ 
+ }
+ .tablo-uclu:hover,  .tablo-uclu.active{
+     -webkit-transform: scale(1.05);
+     -moz-transform: scale(1.05);
+     transform: scale(1.05);
+         -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+     transition: all 0.3s;
+ }
+ .bilet-bilgi h1{
+    color:white;
+    line-height: 50px;
+    font-weight:bold;
+    font-size:24px;
+    text-transform: uppercase;
+}
+
+ .tablo-uclu:hover .image .bilet-tur{
+        background: rgba(195, 39, 43, 0.6);
+ }
+ .tablo-uclu .tablo-icerik{
+     padding:20px;
+     position:relative;	
+ }
+ .tablo-uclu .tablo-icerik:before{
+     content:"";
+     position:absolute;
+     top:-15px;
+     left:-o-calc(50% - 15px);
+     left:-moz-calc(50% - 15px);
+     left:-webkit-calc(50% - 15px);
+     left:calc(50% - 15px);
+     border-bottom:20px solid #fff;
+     border-left:20px solid transparent;
+     border-right:20px solid transparent;
+ }
+ .image img {
+     width:100%;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+ .image {
+     position: relative;
+     margin: 0;
+     padding: 0;
+ }
+ .image .bilet-tur {
+     position: absolute;
+     top: 0;
+     width: 100%;
+     text-align: center;
+     bottom: 4px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ 
+ }
+ .bilet-tur .bilet-bilgi{
+    background: rgba(0,0,0,0.6);
+    position: relative;
+    top: 70%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+ 
+ }
+ 
+ .tablo-icerik h4 {
+    
+     font-size: 14px;
+     text-align: center;
+     padding: 5px 10px;
+     font-weight: bold;
+ }
+ .tablo-icerik h4:not(:last-child){
+    border-bottom: 1px solid #ccc;
+ }
+
+ .footer {
+    display: flex;
+    background: #262626;
+}
+.footer-div {
+    width: 29%;
+    float: left;
+    padding: 1% 2.1%;
+}
+p#footer-p {
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+    /* background: rgb(0 0 0); */
+    color: #fff;
+    padding: 15px 0px;
+    border-bottom: 2px solid #fff;
+}
+
+ul.faydali-menu {
+    padding: 10px 16px;
+    margin: 15px 0px;
+}
+.faydali-linkler ul li {
+    /* list-style: none; */
+    color: #fff;
+}
+.faydali-linkler ul li a {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+    text-decoration: none;
+    /* margin: 11px; */
+    /* font-weight: 800; */
+    font-family: 'Roboto';
+}
+.faydali-linkler ul li a:hover {
+    text-decoration: underline;
+}
+.sponsorlar img {
+    /* border-radius: 75px; */
+    padding: 10px;
+}
+.sponsorlar {
+    margin: 20px 0px 0px 0px;
+}
+
+.harita {
+    margin: 30px 0px 15px 0px;}
