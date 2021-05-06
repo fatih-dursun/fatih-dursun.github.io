@@ -3,5 +3,5 @@
 
 layout: bilet-sayfasi
 title: Biletler
-permalink: biletler.html
+permalink: /biletler/
 ---
